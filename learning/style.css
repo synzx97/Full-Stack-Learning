@@ -1,0 +1,209 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font dan body */
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: background 0.3s ease;
+}
+
+.synzx-nav a {
+  font-weight: 700;
+  font-size: 28px;
+  color: #0077ff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.list-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.list-nav ul li a {
+  color: #555;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.list-nav ul li a:hover,
+.list-nav ul li a:focus {
+  background-color: #0077ff;
+  color: #fff;
+}
+
+/* Section umum */
+section {
+  padding: 100px 20px 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Home Section */
+.section-home {
+  padding-top: 140px; /* untuk menghindari navbar */
+  text-align: center;
+}
+
+.section-home h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  color: #0077ff;
+  margin-bottom: 20px;
+}
+
+.section-home p {
+  font-size: 1.25rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Icon Sosmed */
+.icon-logo {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.icon-logo a {
+  margin: 0 15px;
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon-logo a:hover {
+  transform: translateY(-5px);
+  filter: brightness(1.2);
+}
+
+.icon-logo img {
+  width: 36px;
+  height: 36px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.icon-logo a:hover img {
+  filter: none;
+}
+
+/* About Section */
+.section-about h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0077ff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-about h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+
+.section-about p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  white-space: pre-line; /* agar <br> di html tetap terlihat */
+}
+
+/* Content Section */
+.section-content h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #0077ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-content p {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.section-content figure {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.section-content img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.section-content img:hover {
+  transform: scale(1.05);
+}
+
+.section-content figcaption {
+  padding: 10px 0;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+}
+
+/* Contact Section (placeholder) */
+.section-contact {
+  padding: 80px 20px;
+  text-align: center;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .list-nav ul {
+    gap: 15px;
+  }
+
+  .section-home h1 {
+    font-size: 2.8rem;
+  }
+
+  .section-about h1,
+  .section-content h1 {
+    font-size: 2rem;
+  }
+}
+
+/* iframe */
