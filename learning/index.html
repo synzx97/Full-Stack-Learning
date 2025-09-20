@@ -1,111 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" lang="indonesia">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website Portofolio, Fullstack Developer, Ethical Hacking, coding and hobby"/>
   
-  <!--Open Grap -->
-  <meta property="og:title" content="synzx" />
-  <meta property="og:description" content="My Portofolio" />
-  <meta property="og:image" content="dummy-url/image.jpg" />
-  <meta property="og:url" content="www.dummy-url" />
+<!-- Meta Description -->
+  <meta name="description" content="Portofolio, Personal Portofolio Synzx, and I'm Full Stack Developer"/>
+  <meta name="author" content="Synzx" />
+  <meta name="keyword" content="HTML, and CSS" />
+ 
+<!-- Open Grap important-->
+  <meta content="Synzx Portofolio" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="dummy.image" property="og:image"/>
+  <meta content="dummy.url.id" property="og:url" />
+ 
+<!-- Link eskternal -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./favicon/seo.png" />
 
-  <!-- favicon and style.css -->
-   <link rel="icon" href="./favicon/seo.png" />
-   <link rel="stylesheet" href="style.css" />
-  <title>synzx</title>
+  <title>Synzx Portofolio</title>
 </head>
-<script>
-  alert("Testing");
-</script>
 <body>
-  <div class="navbar">
-    <nav>
-      <!--kata synzx dibuat agar jika di klick bisa langsung ke tampilan home -->
-      <div class="synzx-nav"><a href="#">synzx</a></div>
-      <div class="list-nav">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#content">Content</a></li>
-        <li><a href="#contact">Contact</a></li>
+  
+  <!-- Navbar -->
+  <div class="navbar-section">  
+    <navbar id="nav">
+      <ul class="nav-left">
+        <li class="logo"><a href="#nav">Synzx</a></li>
       </ul>
-      </div>
-    </nav>
+      <ul class="nav-right">
+          <li class="menu-item"><a href="#" class="active">Home</a></li>
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#portofolio">Portofolio</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    </navbar>
   </div>
 
-<div class="section-home">
-  <section id="home">
-    <h1>Fullstack Developer</h1>
-    <p>Saya sedang belajar Fullstack Developer, oleh karena itu mohon bimbinganya. <br>Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.</p>
+<!-- Section home -->
+ <div class="section-home">
+  <section id="home"> 
+    <h1>Full Stack <br>Developer</h1>
+    <p>Saya Seorang Full Stack Developer, Menciptkan berbagai banyak <br> sofware dan aplikasi user friendly.</p>
+  
+    <!-- Pill buton -->
+      <div class="tag">HTML</div>
+      <div class="tag">CSS</div>
+      <div class="tag">Arch Linux</div>
+      <div class="tag">Linux</div>
+  
+  <!-- Logo Social Media -->
+    <div class="social-icons">
+        <a href="https://github.com/synzx97" target="_blank" rel="noopener noreferrer" ><img src="favicon/icon/github.png" alt="github"/></a>
+        <a href="https://www.instagram.com/b4yyulyn/" target="_blank" rel="noopener noreferrer" ><img src="favicon/icon/instagram.png" alt="instagram"/></a>
+        <a href="https://www.youtube.com/@BayyuLyn" target="_blank" rel="noopener noreferrer" ><img src="favicon/icon/youtube.png" alt="youtube"/></a>
+    </div>
   </section>
-</div>
-<!-- Logo sosmed -->
-<div class="icon-logo">
-  <a href=""><img src="./favicon/icon/github.png" alt="github icon" width="2%" height="2%"/></a>
-  <a href=""><img src="./favicon/icon/instagram.png" alt="instagram icon" width="2%" height="2%"/></a>
-  <a href=""><img src="./favicon/icon/youtube.png" alt="youtube icon" width="2%" height="2%"/></a>
-</div>
-<!-- Logo sosmed Selesai -->
+ </div>
+<!-- Section Home Selesai -->
 
+<!-- Section About -->
 <div class="section-about">
-  <section id="about">
+  <section id="about" href="about">
     <h1>About Me</h1>
-    <h2>Hi, Im synzx</h2>
-    <p>Saya seorang siswa SMK dengan jurusan Teknik Komputer dan Jaringan, <br> saat ini saya belajar Fullstack Developer. Saya bercita cita menjadi seorang <br>peretas dan programing, dan juga pergi ke Jepang juga untuk kuliah disana.<br>Saat ini saya sedang menghadapi masalah baru yaitu TKA, untuk ujian kedepan</p>
-  </section> 
-</div>
-
-<div class="section-content">
-  <section id="content">
-    <h1>Tidak Tahu harus isi apa</h1>
-    <p>Hai saya fwlahflahfla fwhfjlawhflahf fwahflahf laff w;aflbla;b f<br> whahlrarha jrharwla hrahr lawrhk arkkwah rrwal</p>
-      <iframe  
-               width="560"
-               height="315"
-               src="https://cdn.pixabay.com/video/2022/07/24/125310-733046613_large.mp4"
-               title="YouTube video player"
-               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-               referrerpolicy="strict-origin-when-cross-origin"
-               allowfullscreen id="iframe-1">
-      </iframe>
-  </section>
-
-  <div class="section-contact">
-    <section id="contact">
-      <h1>A Map from Openstreetmap.org Embedded with the iframe Element</h1>
-      <iframe 
-    srcdoc="
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <style>
-          body { 
-            font-family: Arial; 
-            background-color: #f0f0f0; 
-            text-align: center; 
-            padding: 20px; 
-          }
-          h2 { color: darkblue; }
-        </style>
-      </head>
-      <body>
-        <h2>Halo! 👋</h2>
-        <p>Ini konten dari <b>srcdoc</b>, bukan dari file luar.</p>
-        <button onclick='alert(`Tombol dalam iframe!`)'>Klik Aku</button>
-      </body>
-      </html>
-    "
-    width="400"
-    height="200">
-  </iframe>
+    <div class="content-wrapper">
+      <div>
+        <div class="about-text">
+          <h2 class="intro">Hello, I'm</h2>
+          <div class="name"><h2>Fathur Alamsyah Bayu Saputra</h2></div>
+          <p>
+            Saya siswa SMK dengan jurusan Teknik Komputer dan Jaringan, yang sedang mempelajari Full-Stack Developer.
+            Saya bercita cita menjadi seorang ahli IT terutama dalam bidang Full Stack, dan Ethical Hacking. Impian saya
+            ingin pergi ke Jepang
+            <svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg" width="20" height="14" style="vertical-align: middle;">
+              <path d="m0 0h3v2H0" fill="#fff"/>
+              <circle cx="1.5" cy="1" r=".6" fill="#bc002d"/>
+            </svg>
+            untuk mengajar pendidikan disana. Di masa depan nanti saya ingin membuat sebuah kecerdasan sendiri.
+          </p>
+        </div>
+        <div class="tag-quote">&quot;your choices your actions that's what makes you who you are&quot;</div>
+      </div>
+      <div class="photo-about">
+        <img src="photo.JPG" alt="My photo" />
+      </div>
+    </div>
+    <!-- Pill buton -->
+    <div class="button-container">
+      <a href="" class="btn btn-cv">Download CV</a>
+      <a href="#portofolio" class="btn btn-projects">View Project</a>
+    </div>
     </section>
-  </div>
-
-  <footer>
-    <p> &copy; 2025 synzx</p>
-  </footer>
 </div>
+<!-- Section About Selesai -->
+
+<!-- Section Portofolio -->
+ <div class="section-portofolio">
+  <section id="portofolio">
+    <h1>Portofolio Showcase</h1>
+
+ 
+  </section>
+ </div>
+
 </body>
 </html>
